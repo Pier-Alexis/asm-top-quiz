@@ -1,0 +1,10 @@
+; Constants for the window
+WINDOW_WIDTH  equ 800
+WINDOW_HEIGHT equ 600
+WINDOW_TITLE  db "twenty one pilots Quiz", 0
+
+; Control IDs
+ID_BUTTON_SUBMIT equ 1001
+ID_TEXTBOX_ANSWER equ 1002
+ID_STATIC_QUESTION equ 1003
+ID_PICTURE_BACKGROUND equ 1004
