@@ -1,5 +1,8 @@
 ; Assemble with: nasm -f win32 quiz.asm -o quiz.obj
 ; Link with: gcc quiz.obj -o quiz.exe -lkernel32 -luser32 -lgdi32
+%include "constants.inc"
+%include "macros.inc"
+%include "windows_api.inc"
 
 section .data
     ; Fenêtre et messages
